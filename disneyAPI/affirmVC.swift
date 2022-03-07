@@ -26,8 +26,14 @@ class affirmVC: UIViewController {
     
         
         buttonONe.tintColor = UIColor.white
-        buttonONe.titleLabel!.font = UIFont(name: "Didot", size: 23)
+        buttonONe.titleLabel!.font = UIFont(name: "Avenir", size: 23)
+        
     }
+    
+    
+    
+    
+    
     
 
     
