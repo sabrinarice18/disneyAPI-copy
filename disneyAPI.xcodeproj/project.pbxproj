@@ -18,6 +18,7 @@
 		D44931F427C7DB5300DE7832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44931F327C7DB5300DE7832 /* Assets.xcassets */; };
 		D44931F727C7DB5300DE7832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44931F527C7DB5300DE7832 /* LaunchScreen.storyboard */; };
 		D449320327C7DE3F00DE7832 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = D449320227C7DE3F00DE7832 /* SDWebImage */; };
+		D4DA6C6E27D258FA00F56BEF /* searchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DA6C6D27D258FA00F56BEF /* searchVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		D44931F627C7DB5300DE7832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D44931F827C7DB5300DE7832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D49FB1C827D0EAB80096FA4D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D4DA6C6D27D258FA00F56BEF /* searchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		D44931DE27C7DB4B00DE7832 = {
 			isa = PBXGroup;
 			children = (
+				D4DA6C6D27D258FA00F56BEF /* searchVC.swift */,
 				D40ED9CC27CE6891007318D7 /* gameVC.swift */,
 				D44931E927C7DB4B00DE7832 /* disneyAPI */,
 				D44931E827C7DB4B00DE7832 /* Products */,
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4DA6C6E27D258FA00F56BEF /* searchVC.swift in Sources */,
 				D44931EF27C7DB4B00DE7832 /* ViewController.swift in Sources */,
 				D40ED9D227CE72E4007318D7 /* oneVC.swift in Sources */,
 				D44931EB27C7DB4B00DE7832 /* AppDelegate.swift in Sources */,
